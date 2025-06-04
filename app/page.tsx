@@ -32,8 +32,8 @@ export default function Home() {
 
 const formatarNumero = (n: number) => {
   return n.toLocaleString('pt-BR', {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
   })
 }
 
