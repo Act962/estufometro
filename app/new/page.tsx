@@ -62,7 +62,7 @@ useEffect(() => {
             <div className="relative ml-36 mt-8">
                 <img src="barra _.png" alt="Estufometro" className="" />
 
-                <h2 className="text-9xl text-red-500 font-bold absolute top-12 left-[400px]"> {co2 ? formatarNumero(co2) : "0"} </h2>
+                <h2 className="text-9xl text-[#18d2e5] font-bold absolute top-12 left-[400px]"> {co2 ? formatarNumero(co2) : "0"} </h2>
                 <h2 className="text-9xl text-green-500 font-bold absolute top-12 right-[460px]"> {three ? formatarNumero(three) : "0" } </h2>
             </div>
             <img src="marca Brazil energy.png" alt="Brazil Energy Logo" />
